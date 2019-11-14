@@ -19,6 +19,13 @@ body{
 h1{
 	
 	color: white;
+	font-family: 'Lobster', cursive, sans-serif;
+}
+
+.subtitle{
+	color: white;
+	font-size: 25px;
+	font-family: 'Lobster', cursive, sans-serif;
 
 }
 
