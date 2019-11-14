@@ -44,6 +44,11 @@ h1{
 
 }
 
+#img-caption{
+	font-size: 15px;
+	font-family: 'Lobster', cursive, sans-serif;
+
+}
 
 /*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
