@@ -1,11 +1,45 @@
+ /* need to insert media Queries */
+
+
 
 
 body{
 	background-color: grey;
+	text-align:center;
 }
+
+.Tribute{
+	background-color: Black;
+	padding: 20px 0px 20px 10px;
+	width: 100%;
+	height: auto;
+
+}
+
+h1{
+	
+	color: white;
+
+}
+
+
+
+#image{
+     width: 35%;
+     height: auto%;
+
+
+}
+
+#img-div{
+	background-color: white;
+	padding: 2px 10px 2px 10px;
+
+}
+
 
 /*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
-User Story #9: The img element should be centered within its parent element./*
+User Story #9: The img element should be centered within its parent element.*/
 
 
