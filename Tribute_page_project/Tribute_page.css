@@ -1,11 +1,14 @@
  /* need to insert media Queries */
 
+@media only screen and (max-width: 600px) {
 
+}
 
 
 body{
 	background-color: grey;
 	text-align:center;
+	font-family: 'Lobster', cursive, sans-serif;
 }
 
 .Tribute{
@@ -19,15 +22,28 @@ body{
 h1{
 	
 	color: white;
-	font-family: 'Lobster', cursive, sans-serif;
+	
+}
+
+h2{
+	
+	padding: 5px 0 5px 0;
+	margin: 5px 0 5px 0;
+}
+
+#events{
+	box-shadow: 10px 10px 5px 5px black;
+	border-top: 5px;
 }
 
 .subtitle{
 	color: white;
 	font-size: 25px;
-	font-family: 'Lobster', cursive, sans-serif;
+	
 
 }
+
+
 
 
 
@@ -50,6 +66,27 @@ h1{
 
 }
 
+#quotes{
+	text-align: center; 
+	box-shadow: 5px 10px 5px 10px #888888;
+
+
+}
+ul{
+	
+	display: inline-block; text-align: left;
+	box-shadow: 5px 10px 5px 5px black;
+	
+}
+
+#tribute-link{
+	color: blue;
+}
+
+footer{
+	text-align: right;
+	padding: 15px 5px 15px 5px;
+}
 /*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
 User Story #9: The img element should be centered within its parent element.*/
