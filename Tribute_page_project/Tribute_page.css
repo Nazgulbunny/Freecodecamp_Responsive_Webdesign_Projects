@@ -1,8 +1,4 @@
- /* need to insert media Queries */
-
-@media only screen and (max-width: 600px) {
-
-}
+ 
 
 
 body{
@@ -11,7 +7,7 @@ body{
 	font-family: 'Lobster', cursive, sans-serif;
 }
 
-.Tribute{
+#title{
 	background-color: Black;
 	padding: 20px 0px 20px 10px;
 	width: 100%;
@@ -44,14 +40,11 @@ h2{
 }
 
 
-
-
-
-#image{
-     width: 50%;
-     height: auto%;
-
-
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
 }
 
 #img-div{
@@ -72,6 +65,7 @@ h2{
 
 
 }
+
 ul{
 	
 	display: inline-block; text-align: left;
@@ -87,8 +81,6 @@ footer{
 	text-align: right;
 	padding: 15px 5px 15px 5px;
 }
-/*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
 
-User Story #9: The img element should be centered within its parent element.*/
 
 
