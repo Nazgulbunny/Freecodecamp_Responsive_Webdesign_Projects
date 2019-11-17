@@ -4,11 +4,40 @@
 	<title></title>
 </head>
 <body>
-	<h1 id="title"> </h1>
-	<p id="description"></p>
-	<form action="survey_submit" method="get" accept-charset="utf-8" id="survey-form">
-		survey_submit
-		get
+	<div>
+		<h1 id="title"> </h1>
+		<p id="description"></p>
+	</div>
+	<div>
+		<form action="survey_submit" method="get" accept-charset="utf-8" id="survey-form">
+			<label id="name-label">
+				<input id="name" type="text" name="name" placeholder="please enter your name">
+			</label>
+	</div>
+	<div>
+        <label id="email-label">
+			<input id="email" type="email" name="email" placeholder="please enter your email" required>
+		</label>
+	</div>
+	<div>
+		<label id="number-label">
+			<input id="number" type="number" name="number" min="1" max="100" placeholder="please enter a number" required>
+		</label>
+	</div>
+    <div>
+        <select id="dropdown" name="answers">
+        	<datalist>
+        		<option disabled selected value>Select</option>
+	          	<option value="answer1"> answer one</option>
+	        	<option value="answer 2"> answer two</option>
+	        	<option value="answer 3"> answer 3</option>
+        	</datalist>
+        </select>
+     </div>
+     <div>
+     	
+     </div>
+
 	</form>
 
 </body>
