@@ -1,3 +1,17 @@
 /*this  is the css for the survey form project*/
 
+body{
+	background-color: blueviolet;
+	text-align: center;
+	font-family: 'Pacifico', cursive, sans-serif;
+	
+}
 
+#description{
+	font-size: 20px;
+}
+
+.nameinput{
+	border-radius: 20px;
+	box-shadow: black;
+}
