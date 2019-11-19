@@ -4,14 +4,91 @@ body{
 	background-color: blueviolet;
 	text-align: center;
 	font-family: 'Pacifico', cursive, sans-serif;
-	
 }
 
 #description{
 	font-size: 20px;
 }
 
-.nameinput{
-	border-radius: 20px;
-	box-shadow: black;
+#name{
+	padding: 10px 70px 10px 70px;
+	border-radius: 5%;
+	border-color: black;
+	border: 5px 5px 5px 5px solid;
+	box-shadow: 5px 10px black;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-align: center;
+	font-size: 20px;
 }
+
+
+#email{
+	padding: 10px 70px 10px 70px;
+	border-radius: 5%;
+	border-color: black;
+	border: 5px 5px 5px 5px solid;
+	box-shadow: 5px 10px black;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+#number{
+	padding: 10px 70px 10px 70px;
+	border-radius: 5%;
+	border-color: black;
+	border: 5px 5px 5px 5px solid;
+	box-shadow: 5px 10px black;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-align: center;
+	font-size: 20px;
+}
+
+#dropdown{
+	padding:1px 0px 1px 0px;
+	border-radius: 5%;
+	border-color: black;
+	border: 5px 5px 5px 5px solid;
+	box-shadow: 5px 10px black;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+
+.dropdown{
+	font-size: 20px;
+}
+
+
+textarea{
+	padding:1px 0px 1px 0px;
+	border-radius: 5%;
+	border-color: black;
+	border: 5px 5px 5px 5px solid;
+	box-shadow: 5px 10px black;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-align: left;
+	font-size: 20px;
+}
+
+.text{
+	font-size: 20px;
+}
+
+#submit{
+	padding:1px 10px 1px 10px;
+	border-radius: 5%;
+	border-color: black;
+	border: 5px 5px 5px 5px solid;
+	box-shadow: 5px 10px black;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-align: left;
+	font-size: 20px;
+}
+
