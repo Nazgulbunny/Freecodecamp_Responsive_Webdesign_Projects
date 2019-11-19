@@ -13,52 +13,51 @@
 	<div>
 		<form action="survey_submit" method="get" accept-charset="utf-8" id="survey-form">
 			<label id="name-label">
-				<input id="name" type="text" name="name" placeholder="please enter your name">
+				<input id="name" type="text" name="name" placeholder="please enter your name" required>
 			</label>
-	</div>
-	<div>
-        <label id="email-label">
-			<input id="email" type="email" name="email" placeholder="please enter your email" required>
-		</label>
-	</div>
-	<div>
-		<label id="number-label">
-			<input id="number" type="number" name="age" min="18" max="100" placeholder="Age" required>
-		</label>
-	</div>
-	<div>
-     	<label>
-     		<input type="radio" name="gender" value="male" checked> Male<br>
-  			<input type="radio" name="gender" value="female"> Female<br>
-  			<input type="radio" name="gender" value="other"> Other
-     	</label>
-     </div>
-    <div>
+	
+	
+        	<label id="email-label">
+				<input id="email" type="email" name="email" placeholder="please enter your email" required>
+			</label>
+	
+	
+			<label id="number-label">
+				<input id="number" type="number" name="age" min="18" max="100" placeholder="Age" required>
+			</label>
+	
+	
+     		<label>
+	     		<input type="radio" name="gender" value="male" checked> Male<br>
+	  			<input type="radio" name="gender" value="female"> Female<br>
+	  			<input type="radio" name="gender" value="other"> Other
+     		</label>
+    
+    
     	<p class="dropdown">Please tell us which course you have attended</p>
-        <select id="dropdown" name="answers">
-        	<datalist>
-        		<option disabled selected value></option>
-	          	<option value="answer1"> Certified Scrum Master - CSM </option>
-	        	<option value="answer 2"> Certified Product Owner - CSPO</option>
-	        	<option value="answer 3"> Certified Scrum Developer - CSD</option>
-	        	<option value="answer4"> Advanced Certified ScrumMaster - A-CSM </option>
-	        	<option value="answer 5"> Advanced Certified Product Owner - A-CSPO</option>
-	        	<option value="answer 6"> Certified Scrum Professional Scrum Master - CSP-SM</option>
-	        	<option value="answer 6"> Certified Scrum Professional Product Owner- CSP-PO</option>
-	        	<option value="answer 6"> Certified Scrum Professional For Developers - CSP</option>
-        	</datalist>
-        </select>
-     </div>
-     <div>
+        	<select id="dropdown" name="answers">
+	        	<datalist>
+	        		<option disabled selected value></option>
+		          	<option value="answer1"> Certified Scrum Master - CSM </option>
+		        	<option value="answer 2"> Certified Product Owner - CSPO</option>
+		        	<option value="answer 3"> Certified Scrum Developer - CSD</option>
+		        	<option value="answer4"> Advanced Certified ScrumMaster - A-CSM </option>
+		        	<option value="answer 5"> Advanced Certified Product Owner - A-CSPO</option>
+		        	<option value="answer 6"> Certified Scrum Professional Scrum Master - CSP-SM</option>
+		        	<option value="answer 6"> Certified Scrum Professional Product Owner- CSP-PO</option>
+		        	<option value="answer 6"> Certified Scrum Professional For Developers - CSP</option>
+	        	</datalist>
+        	</select>
+     
+     
      	<p class="text">Please write some feedback in the textarea below</p>
-     	<textarea name="message" rows="10" cols="30" placeholder="Please write here what went well, what could be improved and what you have learned">
-		</textarea>
+	     	<textarea name="message" rows="10" cols="30" placeholder="Please write here what went well, what could be improved and what you have learned">
+			</textarea>
+     
+    
+     		<input id="submit" type="submit" value="submit" name="submit" placeholder="Submit">
      </div>
-     <div>
-     	<input id="submit" type="submit" value="submit" name="submit" placeholder="Submit">
-     </div>
-
-	</form>
+		</form>
 
 </body>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
