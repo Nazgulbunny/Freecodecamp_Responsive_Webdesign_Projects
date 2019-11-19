@@ -88,7 +88,33 @@ textarea{
 	box-shadow: 5px 10px black;
 	margin-bottom: 20px;
 	font-family: 'Pacifico', cursive, sans-serif;
-	text-align: left;
+	text-align: center;
 	font-size: 20px;
 }
 
+form{
+	display: inline-grid;
+}
+
+#checkbox{
+    padding:1px 10px 1px 10px;
+	border-radius: 5%;
+	border-color: black;
+	border: 5px 5px 5px 5px solid;
+	box-shadow: 5px 10px black;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive, sans-serif;
+	text-align: left: ;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.checkbox{
+	font-size: 20px;
+	padding:1px 10px 1px 10px;
+	border-radius: 5%;
+	border-color: black;
+	border: 5px 5px 5px 5px solid;
+	box-shadow: 5px 10px black;
+	margin-bottom: 20px;
+}

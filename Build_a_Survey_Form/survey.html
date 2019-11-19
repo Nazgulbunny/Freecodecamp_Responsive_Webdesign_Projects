@@ -12,19 +12,15 @@
 	</div>
 	<div>
 		<form action="survey_submit" method="get" accept-charset="utf-8" id="survey-form">
-			<label id="name-label">
+			<label id="name-label">Name</label>
 				<input id="name" type="text" name="name" placeholder="please enter your name" required>
-			</label>
-	
-	
-        	<label id="email-label">
+			
+        	<label id="email-label">Email</label>
 				<input id="email" type="email" name="email" placeholder="please enter your email" required>
-			</label>
-	
-	
-			<label id="number-label">
+			
+			<label id="number-label">Age</label>
 				<input id="number" type="number" name="age" min="18" max="100" placeholder="Age" required>
-			</label>
+			
 	
 	
      		<label>
@@ -32,6 +28,20 @@
 	  			<input type="radio" name="gender" value="female"> Female<br>
 	  			<input type="radio" name="gender" value="other"> Other
      		</label>
+
+
+            <p class="checkbox">Please tell us which certification do you have</p>
+     		<label id="checkbox">
+     			<input type="checkbox" name="title1" value="CSM"> I am a Certified Scrum Master<br>
+				<input type="checkbox" name="title2" value="CSPO"> I am a Certified Product Owner<br>
+				<input type="checkbox" name="title3" value="CSD"> I am a Certified Scrum Developer<br>
+				<input type="checkbox" name="title4" value="A-CSM"> I am an Advanced Certified ScrumMaster<br>
+				<input type="checkbox" name="title5" value="A-CSPO"> I am an Advanced Certified Product Owner<br>
+				<input type="checkbox" name="title7" value="CSP-SM"> I am Certified Scrum Professional Scrum Master<br>
+				<input type="checkbox" name="title8" value="CSP-PO"> I am an Certified Scrum Professional Product Owner<br>
+				<input type="checkbox" name="title9" value="CSP"> I am a Certified Scrum Professional For Developers<br>
+				<input type="checkbox" name="title10" value="Nothing"> I don't have any certification
+			</label>
     
     
     	<p class="dropdown">Please tell us which course you have attended</p>
