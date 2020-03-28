@@ -6,6 +6,38 @@ User Story #14: My product landing page should have at least one media query.
 
 User Story #15: My product landing page should utilize CSS flexbox at least once.*/
 
+body{
+	font-size: 20px;
+
+}
+
+
+
+
 #header{
-	background-color: black;
+	
+	font-family: 'Spicy Rice', cursive;
+	background: url(header.jpg);
+	background-size: contain;
+
+
+	}
+
+#header-img{
+	position: relative;
+	width: 20px;
+}
+
+#nav-bar{
+	padding: 0 10px 20px 10px;
+	margin: 0 0 10px 0;
+	text-align: center;
+
+
+}
+
+.nav-link{
+	padding-left: 120px;
+	color: black;
+	font-size: 1.5em;
 }
