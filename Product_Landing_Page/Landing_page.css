@@ -13,6 +13,13 @@ font-size: 20px;
 /*Header Section*/
 #header{
 font-family: 'Spicy Rice', cursive;
+ overflow:hidden; 
+  margin-bottom:50px;
+  width:100%; 
+  position: fixed;
+  position:sticky;
+  position:-webkit-sticky;
+  top:0px;
 }
 
 #header-img{
@@ -22,6 +29,9 @@ width: 100%;
 height: 200px;
 }
 
+
+
+
 #nav-bar{
 padding: 0 10px 20px 10px;
 margin: 0 0 10px 0;
@@ -29,6 +39,8 @@ text-align: center;
 border: 1px solid black;
 box-shadow: 5px 10px #888888;
 border-radius: 5px;
+opacity: 1;
+background-color: ghostwhite;
 }
 
 .nav-link{
@@ -69,8 +81,12 @@ h1{
 }
 
 #trail{
-	margin:3% 0 0 20%;
+	margin:0 0 0 20%;
+	width: 30%;
+
 }
+
+
 
 /* News sections style*/
 
