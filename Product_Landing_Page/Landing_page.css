@@ -1,37 +1,23 @@
-/* Css for the Product Landing Page
-
-User Story #13: The navbar should always be at the top of the viewport.
-
-User Story #14: My product landing page should have at least one media query.
-
-User Story #15: My product landing page should utilize CSS flexbox at least once.*/
-
 body{
 font-size: 20px;
 }
-
 /*Header Section*/
 #header{
 font-family: 'Spicy Rice', cursive;
- overflow:hidden; 
-  margin-bottom:50px;
-  width:100%; 
-  position: fixed;
-  position:sticky;
-  position:-webkit-sticky;
-  top:0px;
+overflow:hidden; 
+margin-bottom:50px;
+width:100%; 
+position: fixed;
+position:sticky;
+position:-webkit-sticky;
+top:0px;
 }
-
 #header-img{
 background-size: cover;
 background-repeat: no-repeat;
 width: 100%;
 height: 200px;
 }
-
-
-
-
 #nav-bar{
 padding: 0 10px 20px 10px;
 margin: 0 0 10px 0;
@@ -42,17 +28,14 @@ border-radius: 5px;
 opacity: 1;
 background-color: ghostwhite;
 }
-
 .nav-link{
 padding-left: 70px;
 color: black;
 font-size: 1.5em;
 }
-
 .active{
 color: grey;
 }
-
 #searchbar{
 margin-left: 110px;
 border:1px solid black;
@@ -62,155 +45,133 @@ background-color: #e9e9e9;
 box-shadow: 2px 5px #888888;
 border-radius: 5px;
 }
-
 /*home section style*/
-
 h1{
-	border-bottom: 1px solid black;
-	width: 30%;
+border-bottom: 1px solid black;
+width: 30%;
 }
-
-
 .flex{
-	display: flex;
-	flex-direction: row;
+display: flex;
+flex-direction: row;
 }
-
 #hometext{
-	width: 30%;
+width: 30%;
 }
-
 #video{
-	margin:0 0 0 20%;
-	width: 30%;
-
+margin:0 0 0 20%;
+width: 30%;
 }
-
-
-
+/*mediaqueries*/
+@media screen and (max-width:600px){
+#video {
+display: none;
+}
+}
+@media screen and (max-width:600px){
+#hometext {
+width: 100%;
+}
+}
 /* News sections style*/
-
-
 .imgnews{
-	width: 100%;
+width: 100%;
 }
-
-
 .featurednews{
-	display: flex;;
-	justify-content: flex-center;
-
+display: flex;;
+justify-content: flex-center;
 }
-
-
 #news1{
-	width: 30%;
-	
+width: 30%;
 }
-
 #news2{
- width: 30%;
- margin-left: 5%
+width: 30%;
+margin-left: 5%
 }
-
 #news3{
 width: 30%;
 margin-left: 5%
 }
-
 #email{
-	font-weight: 500;
-	box-shadow: 5px 10px #888888;
-	border: 2px solid black;
-	align-content: center;
-    }
-
+font-weight: 500;
+box-shadow: 5px 10px #888888;
+border: 2px solid black;
+align-content: center;
+}
 #submit{
-	font-weight: 600;
-	box-shadow: 5px 10px #888888;
-	border: 2px solid black;
-	align-content: center;
-	color: purple;
+font-weight: 600;
+box-shadow: 5px 10px #888888;
+border: 2px solid black;
+align-content: center;
+color: purple;
 }
-
 /* Videos sections style*/
-
-
 #Videos{
-	border: 3px solid black;
-	box-shadow: 5px 10px #888888;
-    border-radius: 5px;
-    background-color:ghostwhite;
-
+border: 3px solid black;
+box-shadow: 5px 10px #888888;
+border-radius: 5px;
+background-color:ghostwhite;
 }
-
 .videoflex{
-	display: flex;
-	flex-direction: row;
-	padding-bottom: 70px;
-	
+display: flex;
+flex-direction: row;
+padding-bottom: 70px;
 }
-
 .videomost{
-	width: 30%;
-	margin-left: 2%;
-	height: 70%;
-	border: 1px solid black;
-	box-shadow: 2px 5px #888888;
+width: 30%;
+margin-left: 2%;
+height: 70%;
+border: 1px solid black;
+box-shadow: 2px 5px #888888;
 }
-
-
+/* Merchandishing sections style */
 #shopping{
-	display: flex;
-	flex-direction: row;
-	border: 3px solid black;
-	box-shadow: 5px 10px #888888;
-
+display: flex;
+flex-direction: row;
+border: 3px solid black;
+box-shadow: 5px 10px #888888;
 }
-
 img{
-	width: 30%
-
-
+width: 30%
 }
-
 span{
-	width: 30%;
-	font-family: 'Pacifico', cursive;
+width: 30%;
+font-family: 'Pacifico', cursive;
 }
-
-
-
 #buy2{
-   margin-left: 5%
+margin-left: 5%
 }
-
 #buy3{
-	margin-left: 5%
+margin-left: 5%
 }
-
 #prices{
-	display: flex;
-	flex-direction: row;
-	text-align: center;
+display: flex;
+flex-direction: row;
+text-align: center;
 }
-
 #price2{
-	margin-left: 5%
+margin-left: 5%
 }
-
 #price3{
-	margin-left: 5%
+margin-left: 5%
+}
+button{
+border: 2px solid;
+border-color: orange;
+width: 30%;
+border-radius: 20%;
+background-color: black;
+color: orange;
+box-shadow: 3px 5px #654711;
 }
 
-button{
-	border: 2px solid;
-	border-color: orange;
-	width: 30%;
-	border-radius: 20%;
-	background-color: black;
-	color: orange;
-	box-shadow: 3px 5px #654711;
 
- 
-  }
+
+
+  /*Finished the project but still need some refactor, 
+  for example I can removes some duplicated attributes and 
+  cluster all togheter for the rule not repeat yourself. 
+  Additionally, even though the site is mobile friendly 
+  I can add more media queries to create the perfect mobile experience. Need to add also a footer*/
+
+
+
