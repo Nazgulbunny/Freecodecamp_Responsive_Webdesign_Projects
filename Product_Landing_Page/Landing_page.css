@@ -80,7 +80,7 @@ h1{
 	width: 30%;
 }
 
-#trail{
+#video{
 	margin:0 0 0 20%;
 	width: 30%;
 
@@ -136,8 +136,81 @@ margin-left: 5%
 /* Videos sections style*/
 
 
-.FeaturedVideos{
-	border: 1px solid black;
+#Videos{
+	border: 3px solid black;
 	box-shadow: 5px 10px #888888;
-    border-radius: 5px
+    border-radius: 5px;
+    background-color:ghostwhite;
+
 }
+
+.videoflex{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 70px;
+	
+}
+
+.videomost{
+	width: 30%;
+	margin-left: 3.3%;
+	height: 70%;
+	border: 3px solid black;
+	box-shadow: 5px 10px #888888;
+}
+
+
+#shopping{
+	display: flex;
+	flex-direction: row;
+	border: 3px solid black;
+	box-shadow: 5px 10px #888888;
+
+}
+
+img{
+	width: 30%
+
+
+}
+
+span{
+	width: 30%;
+	font-family: 'Pacifico', cursive;
+}
+
+
+
+#buy2{
+   margin-left: 5%
+}
+
+#buy3{
+	margin-left: 5%
+}
+
+#prices{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+}
+
+#price2{
+	margin-left: 5%
+}
+
+#price3{
+	margin-left: 5%
+}
+
+button{
+	border: 2px solid;
+	border-color: orange;
+	width: 20%;
+	border-radius: 20%;
+	background-color: black;
+	color: orange;
+	box-shadow: 3px 5px #654711;
+
+ 
+  }
