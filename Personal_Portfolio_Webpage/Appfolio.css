@@ -96,4 +96,23 @@ h1{
  text-align: -webkit-center;
 
 }
+
+table{
+	width: max-content;
+	height: auto;
+	text-align: -webkit-center
+}
+
+.bot{
+	border-bottom: 3px solid black;
+
+}
+
+.lef{
+	border-left: 3px solid black;
+
+}
+
+td{
+	text-align: -webkit-center
 }
