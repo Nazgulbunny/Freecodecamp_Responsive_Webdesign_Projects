@@ -1,168 +1,152 @@
 /*Styles for Personal Portfolio Webpage
 
-
+Eventhough the project is finished, additional things can be done in the future, for example adding a footer with social media Icon 
+and also adding more media queries for different viewports. A refactor of Css is also needed to avoid redundancies 
 
 */
 
-html body{
-font-family:'Viaoda Libre', cursive;
+html body {
+    font-family: 'Viaoda Libre', cursive;
 }
 
-header{
-	display: flex;
-	flex-direction: row-reverse;
-	position: sticky;
-	font-size: x-large;
-	overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    position: sticky;
+    font-size: x-large;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    position: fixed;
+    width: -webkit-fill-available;
+    top: 0;
 }
+
 header a:hover {
-  background-color: #bccbde;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+    background-color: #bccbde;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
 }
 
-#name{
-	font-family: 'Great Vibes', cursive;
-	font-size: 1.5em;
+#name {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
 }
 
-#navbar{
-	
-	  float: right;
-}
-	
-}
-
-a{
-  padding-right:50px;
- 
+#navbar {
+    float: right;
+    position: fixed;
+    width: -webkit-fill-available;
+    top: 0;
+    padding-top: 20px;
 }
 
-#modelnav{
-
-	margin-right: auto;
+#modelnav {
+    margin-right: auto;
 }
 
- when the screen is 500px wide or less, stack the links on top of each other 
-@media screen and (max-width: 500px) {
-  header a {
-    float: none;
+.container {
+    padding: 65px 0 0 0;
+}
+
+#welcome-section {
+    color: #a4893d;
+    background-color: #262626;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
     display: block;
-    text-align: left;
-  }
-  header {
-    float: none;
-  }
+    height: 100vh;
+    width: 100%;
 }
 
-#welcome-section{
- color: #a4893d;
- background-color: #262626;
- text-align: center;
- padding-bottom: 10%;
-
+p {
+    padding-top: 5%;
 }
 
-p{
-	padding-top: 5%;
+h1 {
+    padding-top: 3%;
 }
 
-h1{
-	padding-top: 3%;
+#scroll {
+    width: 2%;
+    height: auto
 }
 
-#scroll{
- width: 2%;
- height: auto	
+#wid {
+    color: #a4893d;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-bottom: 10%;
+    text-align: -webkit-center;
 }
 
-
-#wid{
-	 color: #a4893d;
- background-color: #f5f5f5  ;
- text-align: center;
- padding-bottom: 10%;
- text-align: -webkit-center;
-
+table {
+    width: -webkit-fill-available;
+    height: auto;
+    text-align: -webkit-center
 }
 
-table{
-	width: -webkit-fill-available;
-	height: auto;
-	text-align: -webkit-center
+.bot {
+    border-bottom: 3px solid black;
 }
 
-.bot{
-	border-bottom: 3px solid black;
-
+.lef {
+    border-left: 3px solid black;
 }
 
-.lef{
-	border-left: 3px solid black;
-
+td {
+    text-align: -webkit-center
 }
 
-td{
-	text-align: -webkit-center
+.iconn {
+    width: 20%;
+    height: auto;
 }
 
-.iconn{
-	width: 20%;
-	height: auto;
-}
-
-
-
-#projects{
-	text-align: center;
-	color: #a4893d;
+#projects {
+    text-align: center;
+    color: #a4893d;
     background-color: #cedee0;
-    
-
 }
-#imageport{
-	display: flex;
+
+#imageport {
+    display: flex;
     flex-wrap: wrap;
 }
 
-.portf{
-	width: 20%;
-	height: auto;
-	margin: 10px 0 10px 0;
-	-webkit-box-shadow: 20px 15px 123px -1px rgba(5,5,5,0.88);
--moz-box-shadow: 20px 15px 123px -1px rgba(5,5,5,0.88);
-box-shadow: 20px 15px 123px -1px rgba(5,5,5,0.88);
-
-
+.portf {
+    width: 20%;
+    height: auto;
+    margin: 10px 0 10px 0;
+    -webkit-box-shadow: 20px 15px 123px -1px rgba(5, 5, 5, 0.88);
+    -moz-box-shadow: 20px 15px 123px -1px rgba(5, 5, 5, 0.88);
+    box-shadow: 20px 15px 123px -1px rgba(5, 5, 5, 0.88);
 }
 
-#project-title{
-	    text-align: center;
+.project-tile {
+    text-align: center;
     height: 200px;
     width: 41%;
     margin-bottom: 20px;
     color: #a4893d;
+}
 
-    }
-
-    #project-title a:hover{
-  background-color: #bccbde;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
-    }
-
+.project-tile a:hover {
+    background-color: #bccbde;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
 
 button {
     display: inline-block;
@@ -176,8 +160,7 @@ button {
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
+    transition: background 250ms ease-in-out, transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
     margin: 20px;
@@ -197,7 +180,18 @@ button:active {
     transform: scale(0.99);
 }
 
-#profile-link{
-	text-decoration: none;
-	color: #a4893d;
+#profile-link {
+    text-decoration: none;
+    color: #a4893d;
+}
+
+@media (min-height: 680px),
+screen and (orientation: portrait) {
+    #welcome-section {
+        color: #a4893d;
+        background-color: #262626;
+        text-align: center;
+        padding-bottom: 10%;
+        height: 680px;
+    }
 }
