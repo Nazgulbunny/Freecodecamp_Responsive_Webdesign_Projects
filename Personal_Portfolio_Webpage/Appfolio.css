@@ -1,11 +1,6 @@
 /*Styles for Personal Portfolio Webpage
 
 
-User Story #9: My portfolio should have at least one media query.
-
-User Story #10: The height of the welcome section should be equal to the height of the viewport. 754 laptop - 969 monitor
-
-User Story #11: The navbar should always be at the top of the viewport.
 
 */
 
@@ -30,7 +25,8 @@ header a:hover {
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 4px;}
+  border-radius: 4px;
+}
 
 #name{
 	font-family: 'Great Vibes', cursive;
@@ -54,7 +50,7 @@ a{
 	margin-right: auto;
 }
 
-/* when the screen is 500px wide or less, stack the links on top of each other 
+ when the screen is 500px wide or less, stack the links on top of each other 
 @media screen and (max-width: 500px) {
   header a {
     float: none;
@@ -64,7 +60,7 @@ a{
   header {
     float: none;
   }
-}*/
+}
 
 #welcome-section{
  color: #a4893d;
@@ -98,7 +94,7 @@ h1{
 }
 
 table{
-	width: max-content;
+	width: -webkit-fill-available;
 	height: auto;
 	text-align: -webkit-center
 }
@@ -115,4 +111,93 @@ table{
 
 td{
 	text-align: -webkit-center
+}
+
+.iconn{
+	width: 20%;
+	height: auto;
+}
+
+
+
+#projects{
+	text-align: center;
+	color: #a4893d;
+    background-color: #cedee0;
+    
+
+}
+#imageport{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.portf{
+	width: 20%;
+	height: auto;
+	margin: 10px 0 10px 0;
+	-webkit-box-shadow: 20px 15px 123px -1px rgba(5,5,5,0.88);
+-moz-box-shadow: 20px 15px 123px -1px rgba(5,5,5,0.88);
+box-shadow: 20px 15px 123px -1px rgba(5,5,5,0.88);
+
+
+}
+
+#project-title{
+	    text-align: center;
+    height: 200px;
+    width: 41%;
+    margin-bottom: 20px;
+    color: #a4893d;
+
+    }
+
+    #project-title a:hover{
+  background-color: #bccbde;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+    }
+
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #95ABB5;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 20px;
+}
+
+button:hover,
+button:focus {
+    background: #5C6970;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+#profile-link{
+	text-decoration: none;
+	color: #a4893d;
 }
